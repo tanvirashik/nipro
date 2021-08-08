@@ -1,0 +1,358 @@
+/* fonts start */
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Lato-Medium;
+    src: url(../fonts/Lato-Medium.ttf);
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Semibold;
+    src: url(../fonts/Lato-Semibold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+/* common css */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+/* header start */
+header{
+}
+.n_navbar{
+    background-color: #fff;
+    border-bottom:1px solid #8e8e8e;
+}
+.n_brand{
+    font-family: Lato-Medium;
+    font-weight:400;
+    font-size:32px;
+    color:#333333;
+    text-transform: uppercase;
+}
+.n_navbar ul li{
+    margin-right:20px;
+}
+.n_navbar ul li a{
+    font-family: Lato-Medium;
+    color:#8e8e8e !important;
+    text-transform: uppercase;
+}   
+.n_navbar ul li a:hover{
+    color:#333333 !important;
+}
+.nav_search{
+
+}
+.btn_search{
+    font-size:16px;
+    color:#8e8e8e !important;
+}
+.btn_search:hover{
+    color:#333333 !important;
+}
+.btn_search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn_search::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border:none;
+}
+.btn_search i{
+    font-size:16px;
+}
+.d_menu[data-bs-popper] {
+    top: 55px;
+    left: -260px;
+}
+.d_menu{
+    min-width: 300px;
+    padding:5px 5px;
+}
+.f_c:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+/* slider start */
+.slider{
+    margin-top:70px;
+    background-image: url(../img/slider.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s_c_item{
+    padding-top:200px;
+    padding-bottom:200px;
+
+}
+.s_c_item h1{
+    margin-bottom:40px;
+    font-family: Lato-Bold;
+    font-weight:700;
+    font-size:60px;
+    color:#fff;
+}
+.s_c_item p{
+    margin-bottom:40px;
+    line-height: 30px;
+    color:#fff;
+}
+.btn_slider{
+    padding:15px 30px;
+    font-family: Roboto-Medium;
+    font-weight: 500;
+    font-size:16px;
+    background-color: #fff;
+    color:#333333;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.btn_slider:hover{
+    background-color: #333333;
+    color:#fff;
+}
+.btn_slider:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.b_s_icon{
+    margin-left:20px;
+}
+.c_c_p, .c_c_n {
+    top: 600px;   
+}
+.c_c_p{
+    color:#333333;
+}
+.c_c_p:hover{
+    color:#333333;
+}
+.c_c_n {
+    right: 500px;
+    color:#333333;
+}
+.c_c_n:hover{
+    color:#333333;
+}
+.c_c_n_i {
+    background-image: none;
+}
+.c_c_p_i {
+    background-image: none;
+}
+/* service start */
+.service{
+
+}
+/* 1st row */
+.c_title{
+
+}
+.cm_arrow{
+    width:1px;
+    height:50px;
+    margin-bottom:15px;
+    display: inline-block;
+    background-color: #333333;
+}
+.cm_h1{
+    font-family: Lato-Regular;
+    font-weight: 400;
+    font-size:30px;
+    color:#333333;
+    text-transform: uppercase;
+}   
+/* 2nd row */
+.c_pra p{
+    margin-top:25px;
+    margin-bottom:100px;
+    font-size:16px;
+    line-height:30px;
+}
+/* 3rd row */
+.s_service{
+    padding: 0 15px;
+    text-align:center;
+    border:1px solid #8e8e8e;
+}
+.service_icon{
+    margin:0 auto;
+    margin-bottom:30px;
+    margin-top:-21px;
+    width:70px;
+    background-color: #fff;
+}
+.service_icon i{
+    font-size:60px;
+
+}
+.s_service h2{
+    margin-bottom:15px;
+    font-family: Lato-Bold;
+    font-weight:700;
+    font-size:18px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.s_arrow{
+    margin:0 auto;
+    width:50px;
+    height:1px;
+    background-color: #8e8e8e;
+}
+.s_service p{
+    margin-bottom:40px;
+    margin-top:15px;
+    line-height: 25px;
+}
+.s_service h3{
+    margin-bottom:40px;
+    font-size:16px;
+    text-transform: uppercase;
+}
+.right_arrow{    
+   margin-left:15px;
+}
+.right_arrow i{
+    /* margin-top:10px; */
+    font-size:16px;
+    display: inline-block;
+}
+/* 4th row */
+.ab_us{
+    margin-top:100px;
+    margin-bottom:120px;
+}
+.ab_us h2{
+    font-family:Lato-Regular;
+    font-weight:400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#333333;
+}
+.ab_us p{
+    margin:28px 0;
+}
+.ab_btn{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border:1px solid #333333;
+    transition: 0.4s;
+}
+.ab_btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.ab_btn:hover{
+    background-color: #333333;
+    color:#fff;
+}
+/* portfolio start */
+.portfolio{
+    padding-bottom:70px;
+    background-color: #f8f8f8;
+}
+.work{
+    padding-top:100px;
+    padding-bottom:40px;
+}
+.degin{
+    font-family: Roboto-Regular;
+    font-weight: 400;
+    font-size:16px;
+    padding:5px;
+    border:1px solid transparent;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.degin:hover{
+    font-family: Roboto-Medium;
+    font-weight: 500;
+    border:1px solid #333333;
+    color: #333333;
+}
+.all{
+    font-family: Roboto-Medium;
+    font-weight: 500;
+    padding-right:32px;
+    color:#333333 !important;
+    border:1px solid #333333;
+}
+.project{
+    margin-bottom:30px;
+}
+/* portfolio end */
+/* about start */
+.about{
+
+}
+.cretive{
+    margin-top:100px;
+}
+.bbb{
+    margin-bottom:20px;
+}
+.c_p{
+
+}
+.c_p i{
+    font-size:48px;
+    color:#8e8e8e;
+    transition: 0.4s;
+}
+.c_p i:hover{
+    color:#333333;
+}
+.cre{
+
+}
+.cre h2{
+    margin-top:10px;
+    font-family:Lato-Bold;
+    font-weight: 700;
+    font-size:16px;
+    color:#8e8e8e;
+    transition: 0.4s;
+}
+.cre h2:hover{
+    color:#333333;
+}
+.cre_p{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.cre_p p{
+
+}
+.cretive_arrow{
+    width:350px;
+    height:1px;
+    background-color: #cccccc;
+}
+/* about end */
